@@ -29,6 +29,22 @@ export default function MasteryPage() {
     {
       question: "How is the program different from building a project independently?",
       answer: "The Staking Mastery program offers unique benefits beyond independent development: you'll earn an recognized credential with our Master's badge, have your profile and project featured on our platform, gain access to an alumni community of talented builders, help shape future cohorts, and become well-positioned for Obol's retroactive funding program."
+    },
+    {
+      question: "What kind of support is available during the program?",
+      answer: "Our team is here to help guide you through your project journey. We can provide direction, connect you with resources, and facilitate connections with previous Masters who may be able to offer their expertise and mentorship."
+    },
+    {
+      question: "What benefits do I receive after graduating?",
+      answer: "Upon completion, you'll receive the prestigious Staking Master badge and have your profile and project prominently featured on our platform. You'll join our exclusive alumni Discord community of Masters and be well-positioned to apply for Obol's retroactive funding program."
+    },
+    {
+      question: "Is funding available for project development?",
+      answer: "While there isn't upfront funding, graduates of the program are well-positioned to apply for Obol's retroactive funding program upon project completion. This program recognizes and rewards valuable contributions to the Ethereum staking ecosystem."
+    },
+    {
+      question: "How are projects evaluated?",
+      answer: "The program emphasizes self-directed development rather than strict grading. You'll define your project's goals and success metrics during the planning phase. The key requirement is that your final project must be tangible and independently usable—whether it's a tool, educational resource, or research contribution."
     }
   ];
 
