@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/your-repo-name',
-  assetPrefix: '/your-repo-name',
+  basePath: '/Staking-Mastery-Program',
+  assetPrefix: '/Staking-Mastery-Program',
 };
 
 export default nextConfig;
