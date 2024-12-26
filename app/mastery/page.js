@@ -372,7 +372,7 @@ export default function MasteryPage() {
               </div>
               <h3 className="text-2xl font-bold text-black mb-4">Apply</h3>
               <p className="text-gray-800">
-                For those who are passionate about advancing staking adoption through research, development and/or education.
+                Submit your application with details about your background in the Ethereum ecosystem and your vision for advancing staking adoption.
               </p>
             </div>
 
@@ -383,7 +383,7 @@ export default function MasteryPage() {
               </div>
               <h3 className="text-2xl font-bold text-black mb-4">Interview</h3>
               <p className="text-gray-800">
-                Outstanding applicants will be interviewed to discuss their unique skills and vision for advancing staking adoption.
+                Selected candidates will discuss their skills, experience, and project vision with our team and previous Staking Masters.
               </p>
             </div>
 
@@ -394,7 +394,7 @@ export default function MasteryPage() {
               </div>
               <h3 className="text-2xl font-bold text-black mb-4">Lead</h3>
               <p className="text-gray-800">
-                Selected Masters will lead a project of their choosing, with support and recognition from the community.
+                Accepted Masters will spearhead their chosen project with guidance from the community and support from previous cohorts.
               </p>
             </div>
           </div>
@@ -441,16 +441,16 @@ export default function MasteryPage() {
               <h3 className="text-2xl font-bold text-black mb-6">Your Journey</h3>
               <div className="space-y-6">
                 <div className="border-l-4 border-[#2fe4ab] pl-4">
-                  <h3 className="font-semibold text-gray-900">Lead</h3>
-                  <p className="mt-2 text-gray-600">Take ownership of your project, demonstrating initiative and technical excellence in advancing Ethereum staking.</p>
+                  <h3 className="font-semibold text-gray-900">Plan</h3>
+                  <p className="mt-2 text-gray-600">Transform your vision into an actionable project board with clear milestones and KPIs. Set the foundation for your project's success.</p>
                 </div>
                 <div className="border-l-4 border-[#2fe4ab] pl-4">
                   <h3 className="font-semibold text-gray-900">Build</h3>
-                  <p className="mt-2 text-gray-600">Create something meaningful that contributes to Ethereum's staking ecosystem and demonstrates your expertise.</p>
+                  <p className="mt-2 text-gray-600">Develop your project with monthly check-ins and guidance from previous Staking Masters. Review progress and adjust course as needed.</p>
                 </div>
                 <div className="border-l-4 border-[#2fe4ab] pl-4">
                   <h3 className="font-semibold text-gray-900">Showcase</h3>
-                  <p className="mt-2 text-gray-600">Have your work featured on the Staking Mastery platform, gaining visibility and recognition in the Ethereum ecosystem.</p>
+                  <p className="mt-2 text-gray-600">Present your completed project on the Staking Mastery platform and explore opportunities for retroactive funding through <a href="https://blog.obol.org/1-percent-for-decentralisation/" className="text-[#2fe4ab] hover:underline" target="_blank" rel="noopener noreferrer">Obol's 1% for Decentralisation</a> program.</p>
                 </div>
               </div>
             </div>
