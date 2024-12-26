@@ -229,7 +229,7 @@ export default function MasteryPage() {
       </section>
 
       {/* Meet Cohort #1 Section */}
-      <section className="w-full bg-white py-32">
+      <section className="w-full bg-white pt-16 pb-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold text-black mb-4">
