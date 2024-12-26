@@ -385,7 +385,7 @@ export default function MasteryPage() {
               </div>
               <h3 className="text-2xl font-bold text-black mb-4">Apply</h3>
               <p className="text-gray-800">
-                Submit your application with details about your background in the Ethereum ecosystem and your vision for advancing staking adoption.
+                Submit your application with details about your background and your vision for advancing staking adoption.
               </p>
             </div>
 
@@ -407,7 +407,7 @@ export default function MasteryPage() {
               </div>
               <h3 className="text-2xl font-bold text-black mb-4">Lead</h3>
               <p className="text-gray-800">
-                Accepted Masters will spearhead their chosen project with guidance from the community and support from previous cohorts.
+                Accepted participants will spearhead their chosen project with guidance from the community and support from alumni Masters.
               </p>
             </div>
           </div>
@@ -474,7 +474,7 @@ export default function MasteryPage() {
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0 w-28 font-semibold text-gray-900">Duration</div>
-                  <div className="text-gray-600">12-week program with flexible scheduling to accommodate your timezone</div>
+                  <div className="text-gray-600">12-week program with flexible scheduling to accommodate your availability</div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0 w-28 font-semibold text-gray-900">Format</div>
@@ -486,7 +486,7 @@ export default function MasteryPage() {
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0 w-28 font-semibold text-gray-900">Completion</div>
-                  <div className="text-gray-600">Earn the Staking Master badge, showcase your project on our platform, and help shape the program's future as an alumni mentor</div>
+                  <div className="text-gray-600">Earn the Staking Master badge, showcase your project on our platform, and help shape the program's future as an alumni Master</div>
                 </div>
               </div>
             </div>
