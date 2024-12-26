@@ -105,6 +105,105 @@ export default function MasteryPage() {
             </a>
           </div>
         </div>
+
+        {/* Application Process Section */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white text-center mb-12">
+              Application Process
+            </h2>
+
+            {/* Steps Grid */}
+            <div className="grid gap-8 mb-16">
+              {/* Step 1 */}
+              <div className="relative pl-16">
+                <div className="absolute left-0 top-0 flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 font-bold">
+                  1
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                    Initial Application
+                  </h3>
+                  <p className="text-gray-600 dark:text-gray-300 mb-4">
+                    Submit your application through our online form. Include your validator experience, technical background, and motivation for joining the program.
+                  </p>
+                  <a 
+                    href="https://forms.squadstaking.com/mastery-application" 
+                    className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center"
+                  >
+                    Complete Application Form
+                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              {/* Step 2 */}
+              <div className="relative pl-16">
+                <div className="absolute left-0 top-0 flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 font-bold">
+                  2
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                    Technical Assessment
+                  </h3>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    Complete a brief technical evaluation to demonstrate your understanding of Solana validation and squad staking concepts.
+                  </p>
+                </div>
+              </div>
+
+              {/* Step 3 */}
+              <div className="relative pl-16">
+                <div className="absolute left-0 top-0 flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 font-bold">
+                  3
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                    Interview
+                  </h3>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    Selected candidates will be invited for a virtual interview with program mentors to discuss their goals and expectations.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Eligibility Criteria */}
+            <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-8">
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+                Eligibility Criteria
+              </h3>
+              <ul className="space-y-4">
+                <li className="flex items-start">
+                  <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-gray-600 dark:text-gray-300">Minimum 6 months experience running a Solana validator</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-gray-600 dark:text-gray-300">Demonstrated knowledge of blockchain technology and distributed systems</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-gray-600 dark:text-gray-300">Ability to commit 10-15 hours per week to the program</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-gray-600 dark:text-gray-300">Willingness to contribute to the Solana validator community</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </main>
 
       {/* Footer Section */}
