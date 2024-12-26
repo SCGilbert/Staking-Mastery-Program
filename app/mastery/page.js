@@ -118,7 +118,7 @@ export default function MasteryPage() {
                 In ancient Greece, masters were esteemed for their expertise and their role as mentors. A master would guide an apprentice through rigorous training and intellectual development. They often led performed research, led workshops or built entire guilds.
               </p>
               <p className="text-lg text-gray-800 leading-relaxed">
-                We're empowering the next generation of masters, the Solana Squad Staking Masters.
+                We're empowering the next generation of masters, the Ethereum Staking Masters.
               </p>
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
@@ -344,16 +344,16 @@ export default function MasteryPage() {
               <h3 className="text-2xl font-bold text-black mb-6">Your Journey</h3>
               <div className="space-y-6">
                 <div className="border-l-4 border-[#2fe4ab] pl-4">
-                  <h3 className="font-semibold text-gray-900">Propose</h3>
-                  <p className="mt-2 text-gray-600">Share your vision for a project that advances Ethereum staking and distributed validator technology.</p>
+                  <h3 className="font-semibold text-gray-900">Lead</h3>
+                  <p className="mt-2 text-gray-600">Take ownership of your project, demonstrating initiative and technical excellence in advancing Ethereum staking.</p>
                 </div>
                 <div className="border-l-4 border-[#2fe4ab] pl-4">
-                  <h3 className="font-semibold text-gray-900">Execute</h3>
-                  <p className="mt-2 text-gray-600">Build your project independently, demonstrating initiative and problem-solving abilities.</p>
+                  <h3 className="font-semibold text-gray-900">Build</h3>
+                  <p className="mt-2 text-gray-600">Create something meaningful that contributes to Ethereum's staking ecosystem and demonstrates your expertise.</p>
                 </div>
                 <div className="border-l-4 border-[#2fe4ab] pl-4">
-                  <h3 className="font-semibold text-gray-900">Present</h3>
-                  <p className="mt-2 text-gray-600">Share your completed work and become one of the pioneering contributors helping shape Ethereum's staking future.</p>
+                  <h3 className="font-semibold text-gray-900">Showcase</h3>
+                  <p className="mt-2 text-gray-600">Have your work featured on the Staking Mastery platform, gaining visibility and recognition in the Ethereum ecosystem.</p>
                 </div>
               </div>
             </div>
