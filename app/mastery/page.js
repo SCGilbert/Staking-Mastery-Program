@@ -261,6 +261,49 @@ export default function MasteryPage() {
         </div>
       </section>
 
+      {/* How it Works Section - Moved up and restyled */}
+      <section className="w-full bg-white py-32 border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl sm:text-5xl font-bold text-black mb-16 text-center">
+            How does it work?
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            {/* Apply Step */}
+            <div className="text-center">
+              <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-[#2fe4ab] bg-opacity-10 flex items-center justify-center">
+                <span className="text-3xl font-bold text-[#2fe4ab]">1</span>
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4">Apply</h3>
+              <p className="text-gray-800">
+                For those who are passionate about advancing staking adoption through research, development and/or education.
+              </p>
+            </div>
+
+            {/* Interview Step */}
+            <div className="text-center">
+              <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-[#2fe4ab] bg-opacity-10 flex items-center justify-center">
+                <span className="text-3xl font-bold text-[#2fe4ab]">2</span>
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4">Interview</h3>
+              <p className="text-gray-800">
+                Outstanding applicants will be interviewed to discuss their unique skills and vision for advancing staking adoption.
+              </p>
+            </div>
+
+            {/* Lead Step */}
+            <div className="text-center">
+              <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-[#2fe4ab] bg-opacity-10 flex items-center justify-center">
+                <span className="text-3xl font-bold text-[#2fe4ab]">3</span>
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4">Lead</h3>
+              <p className="text-gray-800">
+                Selected Masters will lead a project of their choosing, with support and recognition from the community.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Program Details Section */}
       <section className="w-full bg-white py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -298,19 +341,19 @@ export default function MasteryPage() {
 
             {/* Structure Card */}
             <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100 hover:border-[#2fe4ab] transition-colors duration-300">
-              <h3 className="text-2xl font-bold text-black mb-6">Program Structure</h3>
+              <h3 className="text-2xl font-bold text-black mb-6">Your Journey</h3>
               <div className="space-y-6">
                 <div className="border-l-4 border-[#2fe4ab] pl-4">
-                  <h3 className="font-semibold text-gray-900">Phase 1: Foundation</h3>
-                  <p className="mt-2 text-gray-600">Technical setup and core concepts of squad staking</p>
+                  <h3 className="font-semibold text-gray-900">Propose</h3>
+                  <p className="mt-2 text-gray-600">Share your vision for a project that advances Ethereum staking and distributed validator technology.</p>
                 </div>
                 <div className="border-l-4 border-[#2fe4ab] pl-4">
-                  <h3 className="font-semibold text-gray-900">Phase 2: Implementation</h3>
-                  <p className="mt-2 text-gray-600">Hands-on project development and optimization</p>
+                  <h3 className="font-semibold text-gray-900">Execute</h3>
+                  <p className="mt-2 text-gray-600">Build your project independently, demonstrating initiative and problem-solving abilities.</p>
                 </div>
                 <div className="border-l-4 border-[#2fe4ab] pl-4">
-                  <h3 className="font-semibold text-gray-900">Phase 3: Mastery</h3>
-                  <p className="mt-2 text-gray-600">Advanced techniques and ecosystem contribution</p>
+                  <h3 className="font-semibold text-gray-900">Present</h3>
+                  <p className="mt-2 text-gray-600">Share your completed work and become one of the pioneering contributors helping shape Ethereum's staking future.</p>
                 </div>
               </div>
             </div>
@@ -336,49 +379,6 @@ export default function MasteryPage() {
                   <div className="text-gray-600">24/7 community access</div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* How it Works Section */}
-      <section className="w-full bg-[#2fe4ab] py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl sm:text-5xl font-bold text-black mb-16 text-center">
-            How does it work?
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            {/* Apply Step */}
-            <div className="text-center">
-              <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-white flex items-center justify-center">
-                <span className="text-3xl font-bold text-[#2fe4ab]">1</span>
-              </div>
-              <h3 className="text-2xl font-bold text-black mb-4">Apply</h3>
-              <p className="text-gray-800">
-                For those who are passionate about advancing staking adoption through research, development and/or education.
-              </p>
-            </div>
-
-            {/* Interview Step */}
-            <div className="text-center">
-              <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-white flex items-center justify-center">
-                <span className="text-3xl font-bold text-[#2fe4ab]">2</span>
-              </div>
-              <h3 className="text-2xl font-bold text-black mb-4">Interview</h3>
-              <p className="text-gray-800">
-                Outstanding applicants will be interviewed to discuss their unique skills and vision for advancing staking adoption.
-              </p>
-            </div>
-
-            {/* Lead Step */}
-            <div className="text-center">
-              <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-white flex items-center justify-center">
-                <span className="text-3xl font-bold text-[#2fe4ab]">3</span>
-              </div>
-              <h3 className="text-2xl font-bold text-black mb-4">Lead</h3>
-              <p className="text-gray-800">
-                Selected Masters will lead a project of their choosing, with support and recognition from the community.
-              </p>
             </div>
           </div>
         </div>
