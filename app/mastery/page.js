@@ -115,13 +115,10 @@ export default function MasteryPage() {
                 What's a Staking Master?
               </h2>
               <p className="text-lg text-gray-800 leading-relaxed mb-6">
-                In ancient Greece, masters were more than just experts—they were stewards of knowledge who built thriving communities of practice. They conducted groundbreaking research, established specialized guilds, and most importantly, mentored the next generation to ensure their craft would endure and evolve.
-              </p>
-              <p className="text-lg text-gray-800 leading-relaxed mb-6">
-                Today's Ethereum Staking Masters carry this torch into the digital age. They're pioneering researchers, educators, and builders who are shaping the future of decentralized validation. Through their projects and mentorship, they're not just advancing the technology—they're nurturing a self-sustaining community of staking expertise.
+                In ancient Greece, masters weren't just experts—they were stewards of knowledge who built thriving communities. Through research, teaching, and mentorship, they ensured their craft would evolve and endure.
               </p>
               <p className="text-lg text-gray-800 leading-relaxed">
-                Join us in building this legacy. Become a master who will help guide the next generation of Ethereum's validation network.
+                Today's Ethereum Staking Masters carry this torch. As researchers, educators, and builders, they're shaping the future of decentralized validation while nurturing the next generation of expertise. Join us in building this legacy.
               </p>
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
