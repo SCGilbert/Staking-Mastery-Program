@@ -267,31 +267,31 @@ export default function MasteryPage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
             {/* Requirements Card */}
             <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100 hover:border-[#2fe4ab] transition-colors duration-300">
-              <h3 className="text-2xl font-bold text-black mb-6">Requirements</h3>
+              <h3 className="text-2xl font-bold text-black mb-6">What We're Looking For</h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-[#2fe4ab] mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  <span className="text-gray-600">Minimum 6 months experience running a Solana validator</span>
+                  <span className="text-gray-600">Passionate individuals committed to strengthening Ethereum's security and decentralization</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-[#2fe4ab] mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  <span className="text-gray-600">Demonstrated knowledge of blockchain technology and distributed systems</span>
+                  <span className="text-gray-600">Self-driven learners interested in distributed systems and blockchain technology</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-[#2fe4ab] mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  <span className="text-gray-600">Ability to commit 10-15 hours per week to the program</span>
+                  <span className="text-gray-600">Dedication to building meaningful projects that advance Ethereum staking adoption</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-[#2fe4ab] mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  <span className="text-gray-600">Willingness to contribute to the Solana validator community</span>
+                  <span className="text-gray-600">Eagerness to contribute to and learn from the Ethereum staking community</span>
                 </li>
               </ul>
             </div>
