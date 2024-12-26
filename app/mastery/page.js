@@ -115,7 +115,7 @@ export default function MasteryPage() {
                 What's a Staking Master?
               </h2>
               <p className="text-lg text-gray-800 leading-relaxed mb-6">
-                In ancient Greece, masters were more than just experts—they were guardians of knowledge who built thriving communities of practice. They conducted groundbreaking research, established specialized guilds, and most importantly, mentored the next generation to ensure their craft would endure and evolve.
+                In ancient Greece, masters were more than just experts—they were stewards of knowledge who built thriving communities of practice. They conducted groundbreaking research, established specialized guilds, and most importantly, mentored the next generation to ensure their craft would endure and evolve.
               </p>
               <p className="text-lg text-gray-800 leading-relaxed mb-6">
                 Today's Ethereum Staking Masters carry this torch into the digital age. They're pioneering researchers, educators, and builders who are shaping the future of decentralized validation. Through their projects and mentorship, they're not just advancing the technology—they're nurturing a self-sustaining community of staking expertise.
@@ -132,6 +132,100 @@ export default function MasteryPage() {
                 className="object-cover"
                 priority
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Benefits of Mastery Section */}
+      <section className="w-full bg-white py-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl sm:text-5xl font-bold text-black mb-4">
+              The Path to Excellence
+            </h2>
+            <p className="text-xl text-gray-600">
+              Becoming a Staking Master opens doors to unique opportunities and recognition.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+            {/* Industry Recognition */}
+            <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+              <div className="w-12 h-12 mb-6 text-[#2fe4ab]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4">Industry Recognition</h3>
+              <p className="text-gray-600">
+                Earn a respected credential that validates your expertise in Ethereum staking. Your achievements will be showcased to the wider Ethereum community.
+              </p>
+            </div>
+
+            {/* Project Support */}
+            <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+              <div className="w-12 h-12 mb-6 text-[#2fe4ab]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4">Project Support</h3>
+              <p className="text-gray-600">
+                Receive guidance and resources to bring your innovative staking projects to life. Your work will be featured and promoted across our platforms.
+              </p>
+            </div>
+
+            {/* Community Leadership */}
+            <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+              <div className="w-12 h-12 mb-6 text-[#2fe4ab]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4">Community Leadership</h3>
+              <p className="text-gray-600">
+                Shape the future of Ethereum staking by mentoring the next generation. Take an active role in growing and strengthening the staking ecosystem.
+              </p>
+            </div>
+
+            {/* Network Access */}
+            <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+              <div className="w-12 h-12 mb-6 text-[#2fe4ab]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4">Network Access</h3>
+              <p className="text-gray-600">
+                Connect with industry leaders and fellow masters. Gain exclusive access to resources, opportunities, and collaborative projects in the Ethereum ecosystem.
+              </p>
+            </div>
+
+            {/* Professional Growth */}
+            <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+              <div className="w-12 h-12 mb-6 text-[#2fe4ab]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4">Professional Growth</h3>
+              <p className="text-gray-600">
+                Develop advanced skills through hands-on projects and expert guidance. Build a portfolio that demonstrates your expertise to the wider blockchain industry.
+              </p>
+            </div>
+
+            {/* Program Impact */}
+            <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+              <div className="w-12 h-12 mb-6 text-[#2fe4ab]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4">Program Impact</h3>
+              <p className="text-gray-600">
+                Make a lasting contribution to Ethereum's decentralization. Your work will help secure the network and advance the adoption of staking technology.
+              </p>
             </div>
           </div>
         </div>
