@@ -116,7 +116,7 @@ export default function MasteryPage() {
               Achieve<br />Staking Mastery
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed mb-12">
-              The Staking Mastery program is a carefully curated cohort based program designed to empower and promote individuals who are passionate about advancing staking adoption through research, development and/or education.
+              The Staking Mastery program is a carefully curated cohort-based program designed to empower and promote individuals who are passionate about advancing staking adoption through research, development, or education.
             </p>
           </div>
         </div>
@@ -131,7 +131,7 @@ export default function MasteryPage() {
                 What's a Staking Master?
               </h2>
               <p className="text-lg text-gray-800 leading-relaxed mb-6">
-                In ancient Greece, masters weren't just experts—they were stewards of knowledge who built thriving communities. Through research, teaching, and mentorship, they ensured their craft would evolve and endure.
+                In ancient Greece, masters weren't just experts—they were stewards of knowledge who built thriving communities. Through research, education, and mentorship, they ensured their craft would evolve and endure.
               </p>
               <p className="text-lg text-gray-800 leading-relaxed">
                 Today's Ethereum Staking Masters carry this torch. As researchers, educators, and builders, they're shaping the future of decentralized validation while nurturing the next generation of expertise. Join us in building this legacy.
@@ -287,7 +287,7 @@ export default function MasteryPage() {
               </div>
               <h3 className="text-2xl font-bold text-black mb-4">Samuel Chong</h3>
               <p className="text-gray-600">
-                Spearheading Ethereum home staking in Asia through educational workshops and comprehensive guides, and more. Empowering individuals, one lesson at a time.
+                Spearheading Ethereum home staking in Asia through educational workshops, comprehensive guides, and more. Empowering individuals, one lesson at a time.
               </p>
             </div>
 
