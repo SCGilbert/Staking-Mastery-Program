@@ -1,4 +1,40 @@
+'use client';
+import React from 'react';
+
 export default function MasteryPage() {
+  const [openFaq, setOpenFaq] = React.useState(-1);
+
+  const toggleFaq = (index) => {
+    setOpenFaq(openFaq === index ? -1 : index);
+  };
+
+  const faqs = [
+    {
+      question: "What makes Squad Staking Mastery different from other programs?",
+      answer: "Squad Staking Mastery is the only program specifically designed for Solana validators focusing on squad staking. Our curriculum is built by industry experts, offers hands-on experience, and provides direct mentorship from successful validators."
+    },
+    {
+      question: "How much time do I need to commit to the program?",
+      answer: "The program requires 10-15 hours per week over a 12-week period. This includes time for learning, project work, mentorship sessions, and community participation. The schedule is flexible to accommodate different time zones."
+    },
+    {
+      question: "What kind of projects will I work on?",
+      answer: "You'll work on real-world validator projects including setting up and optimizing squad staking operations, developing monitoring tools, and contributing to the validator ecosystem. All projects are designed to build practical skills and create tangible value."
+    },
+    {
+      question: "Is the certification recognized in the industry?",
+      answer: "Yes, our certification is recognized throughout the Solana ecosystem. Graduates are acknowledged as qualified squad staking validators, and many have gone on to secure prominent positions or successfully run their own validator operations."
+    },
+    {
+      question: "Can I join if I'm new to validation?",
+      answer: "While we welcome enthusiastic learners, the program requires at least 6 months of Solana validator experience. This ensures all participants can engage meaningfully with the advanced content and contribute to peer learning."
+    },
+    {
+      question: "What support is available after graduation?",
+      answer: "Graduates join our alumni network, gaining ongoing access to community resources, job opportunities, and the ability to mentor future cohorts. We also provide continued support through our community channels."
+    }
+  ];
+
   return (
     <div className="min-h-screen flex flex-col">
       {/* Hero Section */}
@@ -337,6 +373,57 @@ export default function MasteryPage() {
                   <span className="text-gray-600 dark:text-gray-300">Willingness to contribute to the Solana validator community</span>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* FAQ Section */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white text-center mb-12">
+              Frequently Asked Questions
+            </h2>
+
+            <div className="space-y-4">
+              {faqs.map((faq, index) => (
+                <div 
+                  key={index}
+                  className="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden"
+                >
+                  <button
+                    onClick={() => toggleFaq(index)}
+                    className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+                  >
+                    <span className="text-lg font-semibold text-gray-900 dark:text-white">
+                      {faq.question}
+                    </span>
+                    <svg
+                      className={`w-5 h-5 text-gray-500 transform transition-transform ${
+                        openFaq === index ? 'rotate-180' : ''
+                      }`}
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </button>
+                  <div
+                    className={`overflow-hidden transition-all duration-200 ease-in-out ${
+                      openFaq === index ? 'max-h-96' : 'max-h-0'
+                    }`}
+                  >
+                    <div className="px-6 py-4 text-gray-600 dark:text-gray-300 bg-gray-50 dark:bg-gray-800">
+                      {faq.answer}
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
