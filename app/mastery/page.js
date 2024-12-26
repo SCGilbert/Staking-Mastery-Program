@@ -28,7 +28,9 @@ export default function MasteryPage() {
     },
     {
       question: "How is the program different from building a project independently?",
-      answer: "The Staking Mastery program offers unique benefits beyond independent development: you'll earn an recognized credential with our Master's badge, have your profile and project featured on our platform, gain access to an alumni community of talented builders, help shape future cohorts, and become well-positioned for Obol's retroactive funding program."
+      answer: {
+        __html: "The Staking Mastery program offers unique benefits beyond independent development: you'll earn a recognized credential with our Master's badge, have your profile and project featured on our platform, gain access to an alumni community of talented builders, help shape future cohorts, and be well-positioned to apply for <a href='https://blog.obol.org/1-percent-for-decentralisation/' target='_blank' rel='noopener noreferrer' class='text-[#2fe4ab] hover:underline'>Obol's retroactive funding program</a>."
+      }
     },
     {
       question: "What kind of support is available during the program?",
