@@ -95,6 +95,142 @@ export default function MasteryPage() {
             </div>
           </div>
 
+          {/* Benefits and Outcomes Section */}
+          <div className="mt-24 mb-16">
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white text-center mb-16">
+              Program Benefits
+            </h2>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {/* Professional Growth */}
+              <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
+                <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mb-6">
+                  <svg className="w-6 h-6 text-blue-600 dark:text-blue-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
+                  Professional Growth
+                </h3>
+                <ul className="space-y-3 text-gray-600 dark:text-gray-300">
+                  <li className="flex items-start">
+                    <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                    <span>Advanced technical expertise in Solana validation</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                    <span>Industry-recognized certification</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                    <span>Leadership opportunities within the validator community</span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Network Access */}
+              <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
+                <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mb-6">
+                  <svg className="w-6 h-6 text-blue-600 dark:text-blue-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
+                  Network Access
+                </h3>
+                <ul className="space-y-3 text-gray-600 dark:text-gray-300">
+                  <li className="flex items-start">
+                    <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                    <span>Direct mentorship from experienced validators</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                    <span>Exclusive access to validator community events</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                    <span>Ongoing support from program alumni</span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Career Opportunities */}
+              <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
+                <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mb-6">
+                  <svg className="w-6 h-6 text-blue-600 dark:text-blue-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
+                  Career Opportunities
+                </h3>
+                <ul className="space-y-3 text-gray-600 dark:text-gray-300">
+                  <li className="flex items-start">
+                    <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                    <span>Priority access to validator job opportunities</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                    <span>Opportunity to become a program mentor</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                    <span>Enhanced visibility in the Solana ecosystem</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Expected Outcomes */}
+            <div className="mt-16 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-700 rounded-2xl p-8 lg:p-12">
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">
+                Expected Outcomes
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="space-y-6">
+                  <div className="flex items-start">
+                    <div className="flex-shrink-0 h-8 w-8 rounded-full bg-blue-600 dark:bg-blue-500 flex items-center justify-center">
+                      <span className="text-white font-semibold">1</span>
+                    </div>
+                    <div className="ml-4">
+                      <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Technical Mastery</h4>
+                      <p className="mt-2 text-gray-600 dark:text-gray-300">Deep understanding of squad staking mechanics and advanced validation techniques</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="flex-shrink-0 h-8 w-8 rounded-full bg-blue-600 dark:bg-blue-500 flex items-center justify-center">
+                      <span className="text-white font-semibold">2</span>
+                    </div>
+                    <div className="ml-4">
+                      <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Project Portfolio</h4>
+                      <p className="mt-2 text-gray-600 dark:text-gray-300">Completed projects demonstrating practical implementation of advanced concepts</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="space-y-6">
+                  <div className="flex items-start">
+                    <div className="flex-shrink-0 h-8 w-8 rounded-full bg-blue-600 dark:bg-blue-500 flex items-center justify-center">
+                      <span className="text-white font-semibold">3</span>
+                    </div>
+                    <div className="ml-4">
+                      <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Community Leadership</h4>
+                      <p className="mt-2 text-gray-600 dark:text-gray-300">Established position as a thought leader in the validator community</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="flex-shrink-0 h-8 w-8 rounded-full bg-blue-600 dark:bg-blue-500 flex items-center justify-center">
+                      <span className="text-white font-semibold">4</span>
+                    </div>
+                    <div className="ml-4">
+                      <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Professional Network</h4>
+                      <p className="mt-2 text-gray-600 dark:text-gray-300">Strong connections within the Solana ecosystem and validator community</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Call to Action */}
           <div className="mt-16 text-center">
             <a 
