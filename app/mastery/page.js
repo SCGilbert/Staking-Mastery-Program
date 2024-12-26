@@ -38,27 +38,35 @@ export default function MasteryPage() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Hero Section */}
-      <section className="w-full bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+      <section className="w-full bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-32">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white tracking-tight">
               Squad Staking Mastery
             </h1>
-            <p className="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
+            <p className="mt-8 max-w-2xl mx-auto text-lg sm:text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
               An elite program for validators committed to mastering Solana squad staking. 
               Join a select group of professionals shaping the future of decentralized validation.
             </p>
+            <div className="mt-10">
+              <a 
+                href="#apply" 
+                className="inline-flex items-center px-8 py-4 border border-transparent text-lg font-semibold rounded-full text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+              >
+                Join the Program
+              </a>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Main Content Area */}
       <main className="flex-grow w-full bg-white dark:bg-gray-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           {/* Program Details Grid */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-16">
             {/* Requirements Section */}
-            <div className="space-y-6">
+            <div className="space-y-6 hover:transform hover:translate-y-[-4px] transition-transform duration-200">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
                 Program Requirements
               </h2>
@@ -85,7 +93,7 @@ export default function MasteryPage() {
             </div>
 
             {/* Program Structure Section */}
-            <div className="space-y-6">
+            <div className="space-y-6 hover:transform hover:translate-y-[-4px] transition-transform duration-200">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
                 Program Structure
               </h2>
@@ -106,7 +114,7 @@ export default function MasteryPage() {
             </div>
 
             {/* Timeline Section */}
-            <div className="space-y-6">
+            <div className="space-y-6 hover:transform hover:translate-y-[-4px] transition-transform duration-200">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
                 Program Timeline
               </h2>
@@ -132,7 +140,7 @@ export default function MasteryPage() {
           </div>
 
           {/* Benefits and Outcomes Section */}
-          <div className="mt-24 mb-16">
+          <div className="mt-32 mb-20">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white text-center mb-16">
               Program Benefits
             </h2>
@@ -218,7 +226,7 @@ export default function MasteryPage() {
             </div>
 
             {/* Expected Outcomes */}
-            <div className="mt-16 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-700 rounded-2xl p-8 lg:p-12">
+            <div className="mt-20 bg-gradient-to-r from-blue-50 via-blue-50 to-indigo-50 dark:from-gray-800 dark:via-gray-800 dark:to-gray-700 rounded-2xl p-8 lg:p-12 shadow-lg transform hover:scale-[1.01] transition-transform duration-200">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">
                 Expected Outcomes
               </h3>
@@ -268,10 +276,10 @@ export default function MasteryPage() {
           </div>
 
           {/* Call to Action */}
-          <div className="mt-16 text-center">
+          <div className="mt-20 text-center">
             <a 
               href="#apply" 
-              className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+              className="inline-flex items-center px-8 py-4 border border-transparent text-lg font-semibold rounded-full text-white bg-blue-600 hover:bg-blue-700 transform hover:scale-105 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
             >
               Apply for the Program
             </a>
@@ -279,7 +287,7 @@ export default function MasteryPage() {
         </div>
 
         {/* Application Process Section */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white text-center mb-12">
               Application Process
@@ -343,7 +351,7 @@ export default function MasteryPage() {
             </div>
 
             {/* Eligibility Criteria */}
-            <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-8">
+            <div className="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-700 rounded-xl p-8 lg:p-10 shadow-md transform hover:scale-[1.01] transition-transform duration-200">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
                 Eligibility Criteria
               </h3>
@@ -378,47 +386,42 @@ export default function MasteryPage() {
         </div>
 
         {/* FAQ Section */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white text-center mb-16">
               Frequently Asked Questions
             </h2>
 
-            <div className="space-y-4">
+            <div className="space-y-6">
               {faqs.map((faq, index) => (
                 <div 
                   key={index}
-                  className="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden"
+                  className="border border-gray-200 dark:border-gray-700 rounded-xl overflow-hidden transition-shadow duration-200 hover:shadow-md"
                 >
                   <button
                     onClick={() => toggleFaq(index)}
-                    className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+                    className="w-full px-8 py-5 text-left flex justify-between items-center hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200"
                   >
                     <span className="text-lg font-semibold text-gray-900 dark:text-white">
                       {faq.question}
                     </span>
                     <svg
-                      className={`w-5 h-5 text-gray-500 transform transition-transform ${
+                      className={`w-5 h-5 text-gray-500 transform transition-transform duration-200 ${
                         openFaq === index ? 'rotate-180' : ''
                       }`}
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M19 9l-7 7-7-7"
-                      />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                     </svg>
                   </button>
                   <div
-                    className={`overflow-hidden transition-all duration-200 ease-in-out ${
+                    className={`overflow-hidden transition-all duration-300 ease-in-out ${
                       openFaq === index ? 'max-h-96' : 'max-h-0'
                     }`}
                   >
-                    <div className="px-6 py-4 text-gray-600 dark:text-gray-300 bg-gray-50 dark:bg-gray-800">
+                    <div className="px-8 py-6 text-gray-600 dark:text-gray-300 bg-gray-50 dark:bg-gray-800">
                       {faq.answer}
                     </div>
                   </div>
@@ -430,10 +433,21 @@ export default function MasteryPage() {
       </main>
 
       {/* Footer Section */}
-      <footer className="w-full py-6 px-4 sm:px-6 lg:px-8 border-t">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="text-sm">
+      <footer className="w-full py-8 px-4 sm:px-6 lg:px-8 border-t bg-gray-50 dark:bg-gray-800">
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
+          <div className="text-sm text-gray-600 dark:text-gray-300">
             © {new Date().getFullYear()} Squad Staking Mastery
+          </div>
+          <div className="flex space-x-6">
+            <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
+              Terms
+            </a>
+            <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
+              Privacy
+            </a>
+            <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
+              Contact
+            </a>
           </div>
         </div>
       </footer>
