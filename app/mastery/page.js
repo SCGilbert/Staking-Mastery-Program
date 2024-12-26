@@ -32,15 +32,19 @@ export default function MasteryPage() {
     },
     {
       question: "What kind of support is available during the program?",
-      answer: "Our team is here to help guide you through your project journey. We can provide direction, connect you with resources, and facilitate connections with previous Masters who may be able to offer their expertise and mentorship."
+      answer: "The program emphasizes self-directed learning and independent problem-solving—we believe this leads to the most impactful projects. While you'll be expected to drive your own research and development, our alumni Masters are available to provide guidance and mentorship when you need it."
     },
     {
       question: "What benefits do I receive after graduating?",
-      answer: "Upon completion, you'll receive the prestigious Staking Master badge and have your profile and project prominently featured on our platform. You'll join our exclusive alumni Discord community of Masters and be well-positioned to apply for Obol's retroactive funding program."
+      answer: {
+        __html: "Upon completion, you'll receive the prestigious Staking Master badge and have your profile and project prominently featured on our platform. You'll join our exclusive alumni Discord community of Masters and be well-positioned to apply for <a href='https://blog.obol.org/1-percent-for-decentralisation/' target='_blank' rel='noopener noreferrer' class='text-[#2fe4ab] hover:underline'>Obol's retroactive funding program</a>."
+      }
     },
     {
       question: "Is funding available for project development?",
-      answer: "While there isn't upfront funding, graduates of the program are well-positioned to apply for Obol's retroactive funding program upon project completion. This program recognizes and rewards valuable contributions to the Ethereum staking ecosystem."
+      answer: {
+        __html: "While there isn't upfront funding, graduates of the program are well-positioned to apply for <a href='https://blog.obol.org/1-percent-for-decentralisation/' target='_blank' rel='noopener noreferrer' class='text-[#2fe4ab] hover:underline'>Obol's retroactive funding program</a> upon project completion. This program recognizes and rewards valuable contributions to the Ethereum staking ecosystem."
+      }
     },
     {
       question: "How are projects evaluated?",
@@ -544,7 +548,11 @@ export default function MasteryPage() {
                   }`}
                 >
                   <div className="px-8 py-6 bg-gray-50 text-gray-600">
-                    {faq.answer}
+                    {typeof faq.answer === 'string' ? (
+                      faq.answer
+                    ) : (
+                      <div dangerouslySetInnerHTML={faq.answer} />
+                    )}
                   </div>
                 </div>
               </div>
