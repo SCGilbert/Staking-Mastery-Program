@@ -12,7 +12,7 @@ export default function MasteryPage() {
   const faqs = [
     {
       question: "What makes Squad Staking Mastery different from other programs?",
-      answer: "Squad Staking Mastery is the only program specifically designed for Solana validators focusing on squad staking. Our curriculum is built by industry experts, offers hands-on experience, and provides direct mentorship from successful validators."
+      answer: "Squad Staking Mastery is the only program specifically designed for Ethereum validators focusing on squad staking. Our curriculum is built by industry experts, offers hands-on experience, and provides direct mentorship from successful validators."
     },
     {
       question: "How much time do I need to commit to the program?",
@@ -24,11 +24,11 @@ export default function MasteryPage() {
     },
     {
       question: "Is the certification recognized in the industry?",
-      answer: "Yes, our certification is recognized throughout the Solana ecosystem. Graduates are acknowledged as qualified squad staking validators, and many have gone on to secure prominent positions or successfully run their own validator operations."
+      answer: "Yes, our certification is recognized throughout the Ethereum ecosystem. Graduates are acknowledged as qualified squad staking validators, and many have gone on to secure prominent positions or successfully run their own validator operations."
     },
     {
       question: "Can I join if I'm new to validation?",
-      answer: "While we welcome enthusiastic learners, the program requires at least 6 months of Solana validator experience. This ensures all participants can engage meaningfully with the advanced content and contribute to peer learning."
+      answer: "While we welcome enthusiastic learners, the program requires at least 6 months of Ethereum validator experience. This ensures all participants can engage meaningfully with the advanced content and contribute to peer learning."
     },
     {
       question: "What support is available after graduation?",
@@ -485,7 +485,7 @@ export default function MasteryPage() {
             Apply for Cohort #2
           </h2>
           <p className="text-xl text-gray-600 mb-12">
-            This is your chance to leave your mark on Solana forever.
+            This is your chance to leave your mark on Ethereum forever.
           </p>
           <a
             href="#apply"

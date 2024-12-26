@@ -7,21 +7,21 @@ const dmSans = DM_Sans({
 });
 
 export const metadata = {
-  title: "Squad Staking Mastery | Solana Validator Training Program",
-  description: "Join the elite Squad Staking Mastery program for Solana validators. Get expert mentorship, hands-on experience, and industry recognition in squad staking validation.",
+  title: "Squad Staking Mastery | Ethereum Validator Training Program",
+  description: "Join the elite Squad Staking Mastery program for Ethereum validators. Get expert mentorship, hands-on experience, and industry recognition in squad staking validation.",
   keywords: [
-    "Solana validator",
+    "Ethereum validator",
     "squad staking",
     "blockchain certification",
     "validator training",
-    "Solana mastery",
+    "Ethereum mastery",
     "blockchain education",
     "validator program",
     "crypto certification"
   ],
   openGraph: {
-    title: "Squad Staking Mastery | Solana Validator Training Program",
-    description: "Elite training program for Solana validators focusing on squad staking. Join industry experts and advance your validation career.",
+    title: "Squad Staking Mastery | Ethereum Validator Training Program",
+    description: "Elite training program for Ethereum validators focusing on squad staking. Join industry experts and advance your validation career.",
     url: "https://squadstaking.com/mastery",
     siteName: "Squad Staking Mastery",
     images: [
@@ -37,8 +37,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Squad Staking Mastery | Solana Validator Training Program",
-    description: "Elite training program for Solana validators focusing on squad staking. Join industry experts and advance your validation career.",
+    title: "Squad Staking Mastery | Ethereum Validator Training Program",
+    description: "Elite training program for Ethereum validators focusing on squad staking. Join industry experts and advance your validation career.",
     images: ["/og-image.jpg"],
     creator: "@SquadStaking",
   },
