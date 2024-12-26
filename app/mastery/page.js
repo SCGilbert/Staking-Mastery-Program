@@ -457,23 +457,23 @@ export default function MasteryPage() {
 
             {/* Timeline Card */}
             <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100 hover:border-[#2fe4ab] transition-colors duration-300">
-              <h3 className="text-2xl font-bold text-black mb-6">Timeline</h3>
-              <div className="space-y-4">
-                <div className="flex items-center space-x-4">
-                  <div className="flex-shrink-0 w-24 font-semibold text-gray-900">Duration</div>
-                  <div className="text-gray-600">12 weeks</div>
+              <h3 className="text-2xl font-bold text-black mb-6">Program Structure</h3>
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-28 font-semibold text-gray-900">Duration</div>
+                  <div className="text-gray-600">12-week program with flexible scheduling to accommodate your timezone</div>
                 </div>
-                <div className="flex items-center space-x-4">
-                  <div className="flex-shrink-0 w-24 font-semibold text-gray-900">Format</div>
-                  <div className="text-gray-600">Self-paced with weekly mentorship</div>
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-28 font-semibold text-gray-900">Format</div>
+                  <div className="text-gray-600">Self-directed project work with structured monthly check-ins</div>
                 </div>
-                <div className="flex items-center space-x-4">
-                  <div className="flex-shrink-0 w-24 font-semibold text-gray-900">Projects</div>
-                  <div className="text-gray-600">3 major milestones</div>
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-28 font-semibold text-gray-900">Support</div>
+                  <div className="text-gray-600">Project guidance and feedback available from previous cohort masters throughout your journey</div>
                 </div>
-                <div className="flex items-center space-x-4">
-                  <div className="flex-shrink-0 w-24 font-semibold text-gray-900">Support</div>
-                  <div className="text-gray-600">24/7 community access</div>
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-28 font-semibold text-gray-900">Completion</div>
+                  <div className="text-gray-600">Earn the Staking Master badge, showcase your project on our platform, and help shape the program's future as an alumni mentor</div>
                 </div>
               </div>
             </div>
