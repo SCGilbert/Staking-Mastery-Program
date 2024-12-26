@@ -134,6 +134,133 @@ export default function MasteryPage() {
         </div>
       </section>
 
+      {/* Meet Cohort #1 Section */}
+      <section className="w-full bg-white py-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl sm:text-5xl font-bold text-black mb-4">
+              Meet Cohort #1
+            </h2>
+            <p className="text-xl text-gray-600">
+              The first ever set of Ethereum Staking Masters.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+            {/* Chuy Garcia */}
+            <div className="text-center">
+              <div className="relative w-64 h-64 mx-auto mb-6">
+                <Image
+                  src="/chuygarcia.avif"
+                  alt="Chuy Garcia"
+                  width={256}
+                  height={256}
+                  className="rounded-full"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4">Chuy Garcia</h3>
+              <p className="text-gray-600">
+                Pioneering Ethereum staking in Latin America with Rancho Stake. Leading a collective of home operators to strengthen network decentralization across Mexico and beyond.
+              </p>
+            </div>
+
+            {/* Samuel Chong */}
+            <div className="text-center">
+              <div className="relative w-64 h-64 mx-auto mb-6">
+                <Image
+                  src="/samuelchong.avif"
+                  alt="Samuel Chong"
+                  width={256}
+                  height={256}
+                  className="rounded-full]"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4">Samuel Chong</h3>
+              <p className="text-gray-600">
+                Spearheading Ethereum home staking in Asia through educational workshops and comprehensive guides, and more. Empowering individuals, one lesson at a time.
+              </p>
+            </div>
+
+            {/* StakeCat */}
+            <div className="text-center">
+              <div className="relative w-64 h-64 mx-auto mb-6">
+                <Image
+                  src="/stakecat.avif"
+                  alt="StakeCat"
+                  width={256}
+                  height={256}
+                  className="rounded-full"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4">StakeCat</h3>
+              <p className="text-gray-600">
+                Operating professional node services with a focus on decentralisation. Pioneering distributed validator technology to enhance Ethereum's resilience and accessibility.
+              </p>
+            </div>
+
+            {/* David Uzochukwu */}
+            <div className="text-center">
+              <div className="relative w-64 h-64 mx-auto mb-6">
+                <Image
+                  src="/daviduzochukwu.avif"
+                  alt="David Uzochukwu"
+                  width={256}
+                  height={256}
+                  className="rounded-full"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4">David Uzochukwu</h3>
+              <p className="text-gray-600">
+                Leading NodeBridge Africa and advocating for staking by educating individuals and hosting workshops across the continent to help others run nodes for true decentralisation.
+              </p>
+            </div>
+
+            {/* Atomic Whale */}
+            <div className="text-center">
+              <div className="relative w-64 h-64 mx-auto mb-6">
+                <Image
+                  src="/atomicwhale.avif"
+                  alt="Atomic Whale"
+                  width={256}
+                  height={256}
+                  className="rounded-full"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4">Atomic Whale</h3>
+              <p className="text-gray-600">
+                Crafting comprehensive guides to make Squad Staking accessible to all. Empowering the ETH community education and support for decentralised node operation.
+              </p>
+            </div>
+
+            {/* Hanniabu */}
+            <div className="text-center">
+              <div className="relative w-64 h-64 mx-auto mb-6">
+                <Image
+                  src="/hanniabu.png"
+                  alt="Hanniabu"
+                  width={256}
+                  height={256}
+                  className="rounded-full"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4">Hanniabu</h3>
+              <p className="text-gray-600">
+                Developing crucial tools for Ethereum transparency, including a Staking Risk Dashboard. Creating websites and resources to democratise information access.
+              </p>
+            </div>
+          </div>
+
+          <div className="text-center mt-16">
+            <a
+              href="#learn-more"
+              className="inline-flex items-center px-8 py-4 text-lg font-semibold text-black bg-[#2fe4ab] hover:bg-[#00E693] rounded-full transition-colors duration-300"
+            >
+              Learn More about Cohort #1
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Program Details Section */}
       <section className="w-full bg-white py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
