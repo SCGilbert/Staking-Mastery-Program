@@ -11,28 +11,24 @@ export default function MasteryPage() {
 
   const faqs = [
     {
-      question: "What makes Squad Staking Mastery different from other programs?",
-      answer: "Squad Staking Mastery is the only program specifically designed for Ethereum validators focusing on squad staking. Our curriculum is built by industry experts, offers hands-on experience, and provides direct mentorship from successful validators."
+      question: "What kind of projects qualify for the program?",
+      answer: "Any project that contributes to the Ethereum staking ecosystem is eligible. We encourage you to explore the diverse range of projects completed by our current Masters for inspiration—from educational initiatives to technical tools and research contributions."
     },
     {
-      question: "How much time do I need to commit to the program?",
-      answer: "The program requires 10-15 hours per week over a 12-week period. This includes time for learning, project work, mentorship sessions, and community participation. The schedule is flexible to accommodate different time zones."
+      question: "How much Ethereum staking experience do I need to apply?",
+      answer: "While practical staking experience is valuable, it's not mandatory. We value theoretical knowledge and, most importantly, demonstrated enthusiasm to learn and contribute to the ecosystem. We're looking for passionate individuals who are eager to dive deep into Ethereum staking."
     },
     {
-      question: "What kind of projects will I work on?",
-      answer: "You'll work on real-world validator projects including setting up and optimizing squad staking operations, developing monitoring tools, and contributing to the validator ecosystem. All projects are designed to build practical skills and create tangible value."
+      question: "Can I participate while working a full-time job?",
+      answer: "Yes! The program is designed to be flexible, allowing you to work on your project at your own pace. While you'll need to manage your time effectively to complete the project within the 12-week term to earn the Master's badge, you can set your own schedule to balance your commitments."
     },
     {
-      question: "Is the certification recognized in the industry?",
-      answer: "Yes, our certification is recognized throughout the Ethereum ecosystem. Graduates are acknowledged as qualified squad staking validators, and many have gone on to secure prominent positions or successfully run their own validator operations."
+      question: "What happens if I can't complete my project within 12 weeks?",
+      answer: "We understand that initial project scopes can be ambitious. If you find yourself approaching the 12-week mark without completion, you can work with our team and previous Masters to adjust your project's scope while maintaining its value. The key is communication—we're here to help you succeed. Remember, you'll need to showcase a tangible outcome to earn the Staking Master's badge."
     },
     {
-      question: "Can I join if I'm new to validation?",
-      answer: "While we welcome enthusiastic learners, the program requires at least 6 months of Ethereum validator experience. This ensures all participants can engage meaningfully with the advanced content and contribute to peer learning."
-    },
-    {
-      question: "What support is available after graduation?",
-      answer: "Graduates join our alumni network, gaining ongoing access to community resources, job opportunities, and the ability to mentor future cohorts. We also provide continued support through our community channels."
+      question: "How is the program different from building a project independently?",
+      answer: "The Staking Mastery program offers unique benefits beyond independent development: you'll earn an recognized credential with our Master's badge, have your profile and project featured on our platform, gain access to an alumni community of talented builders, help shape future cohorts, and become well-positioned for Obol's retroactive funding program."
     }
   ];
 
