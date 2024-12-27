@@ -66,7 +66,7 @@ export default function MasteryPage() {
               <div className="flex items-center space-x-4">
                 <div className="w-24">
                   <Image
-                    src="/Obol_banner_logo.avif"
+                    src={`${process.env.NODE_ENV === 'production' ? '/Staking-Mastery-Program' : ''}/Obol_banner_logo.avif`}
                     alt="Obol"
                     width={96}
                     height={32}
@@ -97,7 +97,7 @@ export default function MasteryPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-center text-white space-x-2">
               <Image
-                src="/obol-icon.jpg"
+                src={`${process.env.NODE_ENV === 'production' ? '/Staking-Mastery-Program' : ''}/obol-icon.jpg`}
                 alt="Obol Icon"
                 width={24}
                 height={24}
@@ -141,7 +141,7 @@ export default function MasteryPage() {
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
               <Image
-                src="/whats_a_staking_master_hero.avif"
+                src={`${process.env.NODE_ENV === 'production' ? '/Staking-Mastery-Program' : ''}/whats_a_staking_master_hero.avif`}
                 alt="Ancient Greek Master Statue"
                 fill
                 className="object-cover"
@@ -263,7 +263,7 @@ export default function MasteryPage() {
             <div className="text-center">
               <div className="relative w-64 h-64 mx-auto mb-6">
                 <Image
-                  src="/chuygarcia.avif"
+                  src={`${process.env.NODE_ENV === 'production' ? '/Staking-Mastery-Program' : ''}/chuygarcia.avif`}
                   alt="Chuy Garcia"
                   width={256}
                   height={256}
@@ -280,7 +280,7 @@ export default function MasteryPage() {
             <div className="text-center">
               <div className="relative w-64 h-64 mx-auto mb-6">
                 <Image
-                  src="/samuelchong.avif"
+                  src={`${process.env.NODE_ENV === 'production' ? '/Staking-Mastery-Program' : ''}/samuelchong.avif`}
                   alt="Samuel Chong"
                   width={256}
                   height={256}
@@ -297,7 +297,7 @@ export default function MasteryPage() {
             <div className="text-center">
               <div className="relative w-64 h-64 mx-auto mb-6">
                 <Image
-                  src="/stakecat.avif"
+                  src={`${process.env.NODE_ENV === 'production' ? '/Staking-Mastery-Program' : ''}/stakecat.avif`}
                   alt="StakeCat"
                   width={256}
                   height={256}
@@ -314,7 +314,7 @@ export default function MasteryPage() {
             <div className="text-center">
               <div className="relative w-64 h-64 mx-auto mb-6">
                 <Image
-                  src="/daviduzochukwu.avif"
+                  src={`${process.env.NODE_ENV === 'production' ? '/Staking-Mastery-Program' : ''}/daviduzochukwu.avif`}
                   alt="David Uzochukwu"
                   width={256}
                   height={256}
@@ -331,7 +331,7 @@ export default function MasteryPage() {
             <div className="text-center">
               <div className="relative w-64 h-64 mx-auto mb-6">
                 <Image
-                  src="/atomicwhale.avif"
+                  src={`${process.env.NODE_ENV === 'production' ? '/Staking-Mastery-Program' : ''}/atomicwhale.avif`}
                   alt="Atomic Whale"
                   width={256}
                   height={256}
@@ -348,7 +348,7 @@ export default function MasteryPage() {
             <div className="text-center">
               <div className="relative w-64 h-64 mx-auto mb-6">
                 <Image
-                  src="/hanniabu.png"
+                  src={`${process.env.NODE_ENV === 'production' ? '/Staking-Mastery-Program' : ''}/hanniabu.png`}
                   alt="Hanniabu"
                   width={256}
                   height={256}
