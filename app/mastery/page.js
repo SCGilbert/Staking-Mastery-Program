@@ -274,6 +274,11 @@ export default function MasteryPage() {
               <p className="text-gray-600">
                 Pioneering Ethereum staking in Latin America with Rancho Stake. Leading a collective of home operators to strengthen network decentralization across Mexico and beyond.
               </p>
+              <button
+                className="inline-block mt-4 px-4 py-2 text-sm font-semibold text-gray-600 hover:text-black border border-gray-200 hover:border-[#2fe4ab] rounded-full transition-all duration-300"
+              >
+                Explore Rancho Stake
+              </button>
             </div>
 
             {/* Samuel Chong */}
@@ -291,6 +296,11 @@ export default function MasteryPage() {
               <p className="text-gray-600">
                 Spearheading Ethereum home staking in Asia through educational workshops, comprehensive guides, and more. Empowering individuals, one lesson at a time.
               </p>
+              <button
+                className="inline-block mt-4 px-4 py-2 text-sm font-semibold text-gray-600 hover:text-black border border-gray-200 hover:border-[#2fe4ab] rounded-full transition-all duration-300"
+              >
+                Explore Workshops
+              </button>
             </div>
 
             {/* StakeCat */}
@@ -308,6 +318,11 @@ export default function MasteryPage() {
               <p className="text-gray-600">
                 Operating professional node services with a focus on decentralisation. Pioneering distributed validator technology to enhance Ethereum's resilience and accessibility.
               </p>
+              <button
+                className="inline-block mt-4 px-4 py-2 text-sm font-semibold text-gray-600 hover:text-black border border-gray-200 hover:border-[#2fe4ab] rounded-full transition-all duration-300"
+              >
+                Explore Node Services
+              </button>
             </div>
 
             {/* David Uzochukwu */}
@@ -325,6 +340,11 @@ export default function MasteryPage() {
               <p className="text-gray-600">
                 Leading NodeBridge Africa and advocating for staking by educating individuals and hosting workshops across the continent to help others run nodes for true decentralisation.
               </p>
+              <button
+                className="inline-block mt-4 px-4 py-2 text-sm font-semibold text-gray-600 hover:text-black border border-gray-200 hover:border-[#2fe4ab] rounded-full transition-all duration-300"
+              >
+                Explore NodeBridge
+              </button>
             </div>
 
             {/* Atomic Whale */}
@@ -342,6 +362,11 @@ export default function MasteryPage() {
               <p className="text-gray-600">
                 Crafting comprehensive guides to make Squad Staking accessible to all. Empowering the ETH community education and support for decentralised node operation.
               </p>
+              <button
+                className="inline-block mt-4 px-4 py-2 text-sm font-semibold text-gray-600 hover:text-black border border-gray-200 hover:border-[#2fe4ab] rounded-full transition-all duration-300"
+              >
+                Explore Guides
+              </button>
             </div>
 
             {/* Hanniabu */}
@@ -359,6 +384,11 @@ export default function MasteryPage() {
               <p className="text-gray-600">
                 Developing crucial tools for Ethereum transparency, including a Staking Risk Dashboard. Creating websites and resources to democratise information access.
               </p>
+              <button
+                className="inline-block mt-4 px-4 py-2 text-sm font-semibold text-gray-600 hover:text-black border border-gray-200 hover:border-[#2fe4ab] rounded-full transition-all duration-300"
+              >
+                Explore Risk Dashboard
+              </button>
             </div>
           </div>
 
