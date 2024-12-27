@@ -395,7 +395,7 @@ export default function MasteryPage() {
           <div className="text-center mt-16">
             <a
               href="#learn-more"
-              className="inline-flex items-center px-8 py-4 text-lg font-semibold text-black bg-[#2fe4ab] hover:bg-[#00E693] rounded-full transition-colors duration-300"
+              className="inline-flex items-center px-6 py-3 text-sm font-semibold text-gray-300 hover:text-white bg-[#182d32] hover:bg-[#1f3b42] rounded-full transition-colors duration-300"
             >
               Learn More about Cohort #1
             </a>
