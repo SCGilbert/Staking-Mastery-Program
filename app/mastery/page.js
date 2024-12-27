@@ -136,7 +136,7 @@ export default function MasteryPage() {
                 In ancient Greece, masters weren't just experts—they were stewards of knowledge who built thriving communities. Through research, education, and mentorship, they ensured their craft would evolve and endure.
               </p>
               <p className="text-lg text-gray-800 leading-relaxed">
-                Today's Ethereum Staking Masters carry this torch. As researchers, educators, and builders, they're shaping the future of decentralized validation while nurturing the next generation of expertise. Join us in building this legacy.
+              Today's Ethereum Staking Masters carry this torch. As researchers, educators, and builders, they're shaping the future of decentralized validation while raising up the next generation to advance Ethereum's growth with contributions of their own. Join us in building this legacy.
               </p>
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
