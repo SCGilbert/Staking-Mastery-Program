@@ -1,4 +1,5 @@
 {
+  "homepage": "https://scgilbert.github.io/Staking-Mastery-Program",
   "name": "staking_mastery_revised",
   "version": "0.1.0",
   "private": true,
@@ -7,18 +8,20 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && touch out/.nojekyll"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
+    "next": "15.1.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.2"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "@eslint/eslintrc": "^3",
     "eslint": "^9",
     "eslint-config-next": "15.1.2",
-    "@eslint/eslintrc": "^3"
+    "gh-pages": "^6.2.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }

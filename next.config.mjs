@@ -1,11 +1,13 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
-  output: 'export',
+  reactStrictMode: true,
   images: {
-    unoptimized: true,
+    unoptimized: true, // Disable default image optimization
   },
-  basePath: '/Staking-Mastery-Program',
-  assetPrefix: '/Staking-Mastery-Program',
+  assetPrefix: isProd ? '/Staking-Mastery-Program/' : '',
+  basePath: isProd ? '/Staking-Mastery-Program' : '',
+  output: 'export'
 };
 
 export default nextConfig;
